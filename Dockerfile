@@ -1,6 +1,6 @@
 FROM golang
 
-WORKDIR go-demo/
-ADD go-demo/golang_website .
+WORKDIR golang_website/
+ADD . .
 
 CMD ["go", "run", "server.go"]
